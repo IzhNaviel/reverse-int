@@ -1,4 +1,6 @@
 module.exports = function reverse (n) {
-  let reverseNum = n.toString().split('').reverse().join('');
-    return parseInt(reverseNum, 2);
+const nToString = n.toString();
+const reverseNum = parseInt(nToString.split('').reverse().join(''));
+    
+return reverseNum    
 }
